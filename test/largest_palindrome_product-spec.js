@@ -18,6 +18,8 @@ describe("Find The Largest Palindrome Product", function () {
 
     expect(product.palindromeNumber).to.equal(906609);
 
+    expect([913,993]).to.include(product.factor_0);
+    expect([913,993]).to.include(product.factor_1);
     // add your tests here
     //
     //
